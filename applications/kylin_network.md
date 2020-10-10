@@ -141,6 +141,7 @@ In this milestone, we will verify the concept and technology path of Kylin Netwo
 - **Estimated Duration:** 1 month
 - **Full-time Equivalent (FTE)**: 2
 - **Costs:** 0.3 BTC
+
 | **Deliverable**                | **Specification**                                            |
 | ------------------------------ | ------------------------------------------------------------ |
 | License                        | Apache License 2.0                                           |
@@ -151,6 +152,7 @@ In this milestone, we will verify features with limited users and launch the tes
 - **Estimated Duration:** 1 month
 - **Full-time Equivalent (FTE):** 3
 - **Costs:** 1 BTC
+
 | **Deliverable**                      | **Specification**                                            |
 | ------------------------------------ | ------------------------------------------------------------ |
 | Kylin Network Oracle Node Repo       | Oracle node implemented with Substrate 2.0, integrates off-chain worker. |
