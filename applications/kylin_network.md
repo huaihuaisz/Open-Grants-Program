@@ -8,6 +8,7 @@
 
 ### Overview
 
+#### Introduction
 **Kylin Network aims to Build a Cross-chain Platform Empowering the Data Economy on Polkadot.** It offers any applications and blockchains (such as parachains and parathreads) instantaneous but reliable and valid on/off-chain market data and social data sources by leveraging the power of Polkadot. Kylin Network represents an extensibility and synergetic increase to the off-chain workers capability as it will provide not only access, management, coordination to a greater array of data sources, but bolster validity and decentralization of the data sources themselves. Kylin Network therefore hopes to achieve complementarity and synergy with [Substrate](https://github.com/paritytech/substrate) Framework while providing valid, reliable, and easily-coordinated data sourcing.
 ![img](https://lh5.googleusercontent.com/T22rYBCvtyDbo7HI5Hs9LUdCzzEWStcR2b2xs8h2kvEUdP2QjpdlRgAf1lhKw1TOhlmfWWf1btNPMwIszcRMIq8iWPBAG_1zFx-iFdwEOd8j61TK9rCOlpr4T2ToHhanvkM7IAg2)
 
@@ -93,6 +94,9 @@ Kylin Oracle Network will also apply Verifiable Random Function (VRF) and Thresh
 * **Intermediary of Exchange:** $KYL tokens will be used to pay as a transaction, query fee, and also for data access behind paywall (private APIs).
 * **On-chain Governance:** $KYL Token holders are able to vote for the protocol upgrades and parameter changes on Kylin Network. The governance process allows the token holders to have decision making power in shaping a truly decentralized oracle network.
 
+### The Purpose of this Grant
+In terms of the system architecture of Kylin Network, the purpose of this grant is to verify features with limited users and launch the testnet for production of concepts. Besides, the implementation of off-chain workers of Substrate 2.0 Framework will be built and validated in a lean way. As we mentioned above, the whole project has four main components, the development roadmap will take at least one year to deliver the platform. At that time, we believe Kylin Network will empower the data economy effectively.
+
 ### Ecosystem Fits
 
 There are some existing projects which can support and work with the Kylin Network.
@@ -114,7 +118,7 @@ The application scenarios include but not limited to:
 
 ### Team Members
 
-* Dylan Dewdney - CEO/Project Lead
+* Dylan Dewdney - CEO/Project Leader
 * Beni Issembert - CMO/Head of Advisory Board
 * Kyn Chaturvedi - Strategy Advisor
 * Kevin Hsu - Data Scientist
@@ -139,24 +143,29 @@ Digital Asset FOF Ltd. is a company registered in Cayman Islands.
    &emsp;\-   GTM for Beam.mw + Chief Evangelist  
    &emsp;\-   Head of Growth, AdEx  
    &emsp;\-   Investor and Advisor to Ramp and other projects  
+
 **Beni Issembert**  
    &emsp;\-   15 years of proven experience as entrepreneur and global marketer within the scientific and technology sectors: Founder, Titan Poker; Founder, JJF Media Ltd., External CMO, ConnectJob  
    &emsp;\-   GTM for BEAM.mw + Chief Marketing Officer  
    &emsp;\-   Current CMO for Concordium  
    &emsp;\-   Published Author; PhD John Hopkins  
-   &emsp;\-   Member of the Open Source Initiative  
+   &emsp;\-   Member of the Open Source Initiative 
+
 **Kyn Chaturvedi**  
-   &emsp;\-   Experienced Strategist across multiple verticals in digital technology with a demonstrated history of working in the gaming industry. Skilled in developing and implementing Go-to-Market strategies, Partnership Development, and Product Management.  
+   &emsp;\-   Experienced Strategist across multiple verticals in digital technology with a demonstrated history of working in the gaming industry. Skilled in developing and implementing Go-to-Market strategies, Partnership Development, and Product Management.
    &emsp;\-   Current CBDO of Tomochain  
    &emsp;\-   Wharton Grad (2011)  
+
 **Kevin Hsu**  
    &emsp;\-   MSc in Computational Statistics and Machine Learning from UCL and supervised by David Silver, the senior engineer of AlphaGO.  
    &emsp;\-   Served as data scientist in Credit Suisse, senior machine learning Engineer in WeCash.  
    &emsp;\-   Prescient and consistent track-record in investment and has invested over 160 blockchain projects around the world.  
+
 **Aaron Po**  
    &emsp;\-   7-year experience in full-stack development.  
    &emsp;\-   Deep knowledge in building scalable systems and blockchain solutions.  
    &emsp;\-   Stack: C#, Java, Rust, Go, Javascript, AWS, Kubernetes, Hadoop, HBase, etc.  
+
 **Andy Zhuang**  
    &emsp;\-   Seasoned development experience in Hyperledger, Ethereum and EOS.  
    &emsp;\-   Expert in the architecture design of DeFi and token economics.  
@@ -195,7 +204,7 @@ In this milestone, we will verify the concept and technology path of Kylin Netwo
 
 ### Milestone 2
 
-In this milestone, we will verify features with limited users and launch the testnet for production of concepts. The implementation of off-chain workers of substrate 2.0| framework will be built and tested.
+In this milestone, we will verify features with limited users and launch the testnet for production of concepts. The implementation of off-chain workers of substrate 2.0| framework will be built and validated.
 * **Estimated Duration:** 1 month
 * **Full-time Equivalent (FTE):** 3
 * **Costs:** 1 BTC  
@@ -232,7 +241,8 @@ Kylin's future community engagement strategies include:
 
 ## Additional Information :heavy_plus_sign:
 
+* Website: https://kylin.network/
 * Twitter: https://twitter.com/Kylin_Network
 * Medium: https://medium.com/@kylinNetwork
 * Telegram: https://t.me/KylinOfficial
-* Website: https://kylin.network
+* Github: https://github.com/Kylin-Network
