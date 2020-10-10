@@ -32,7 +32,7 @@ Therefore, we need a state-of-art solution to solve the above problems. The arch
 * **Kylin Data Marketplace** is an open platform for the data economy. Dapps built on Polkadot can access this platform to easily and efficiently collect both off-chain and on-chain data only paying a very competitive fee.
 * **Kylin Data Analytics** is a combination of analyzing tools designed for data warehouses. It extracts meaningful data findings, patterns, interpretation, and finally implements low-cost commercialization functionalities for the public.
 * **Kylin Token $KYL** is the native token of Kylin Network which will play the role of governance and other utilities. $KYL is necessary to secure and power the decentralized oracle network.
-![img](https://lh6.googleusercontent.com/ErkoMCbuwptc5xTYadvjINwl2x9Tvviu7ekpo4WbnYx2a0QAVia2ADiH2ADLjLD8105aUZ2ZrmeImDIbDgyOkWGNC10kbXWBsj9FNy-i2awIqWvNRhE-_-CT8v91Y8gMfpBaH8Oo)
+![img](https://lh3.googleusercontent.com/z_UW4JV9m3F-pjLNpW5FsdicgaIEvJIl9PuJ6QNG9ET9_1LHJI2Lq8Ycr3zzeLrwhrGdtznVQsKlbl8jWFhuZzxG8NL7o1vaUaBl2oRKMRaOItQmYQCndjg_4TQxXYIQburzWdDq)
 
 ### Project Architecture
 
@@ -84,7 +84,7 @@ As Kylin Network will provide real-world data to on-chain transactions, security
 We will employ a novel approach to user identity management in blockchain services. We implement identity-based end-to-end security which extends from the blockchain client to the blockchain fabric. This approach allows for nodes-based network segmentation and traffic separation, which enables multiple entities to securely share the same blockchain infrastructure, reduces the risk of DDoS attacks, and enables automated regulatory compliance audits. The solution is based on Kylin Oracle Transport Access Control (KTAC) technologies, implemented using software application library endpoints. This approach can easily be generalized to protect many different types of commercial applications. KTAC features include permission control, confidentiality, un-linkable identity privacy for blockchain participants, a modular and easily auditable consensus protocol, and improved scalability. KTAC extends the blockchain in several important ways.
 
 We will employ the Kylin Oracle Real-time Transport Protocol (KRTP), a profile of the Real-time Transport Protocol (RTP), which provides confidentiality, message and data authentication, and replay protection to the RTP traffic and to the control traffic for RTP, the Real-time Transport Control Protocol (RTCP). KRTP provides a framework for encryption and data authentication of RTP and RTCP streams. KRTP defines a set of cryptographic transforms, and it allows new transforms to be introduced in the future. With appropriate key management, KRTP is secure for unicast and multicast RTP applications.
-![img](https://lh6.googleusercontent.com/k_YavNHdtkRolT2bry5e3QQHqVofGsfWnyljY_vJxDkxLa2pPYdI3xpt9BgAyANeaFGl2aeMC3SBjZBj1pcs82oZMykwW2Ce1Wn_yvXsZvSq6yrC3Zkunz1uZEXo5xFOAQHrOfcL)
+![img](https://lh4.googleusercontent.com/NbBy4NtE9KvZTmBi8AJAhexpu8JG7zfkRo-1sDfyBawSu6PAgF5xCt3oyfRYkLpTmovlPGcjk2-DtcqMnluYmRL5HBYo1UNwQfwS1nAj2FXLDaUxKRoRYyXvtVfUNX4d0BAesSCK)
 Kylin Oracle Network will also apply Verifiable Random Function (VRF) and Threshold Cryptography to drive the secure, unpredictable and verifiable random group selection. Different oracle requests will be handled by randomly selected worker groups. Threshold cryptography will then be applied in the worker group to collectively generate a proof to demonstrate data integrity. Finally, the proof along with the data will be sent back together to the system contracts within one transaction for on-chain verification.
 
 #### Token Economics
@@ -241,7 +241,7 @@ Kylin's future community engagement strategies include:
 
 ## Additional Information :heavy_plus_sign:
 
-* Website: https://kylin.network/
+* Website: https://kylin.network
 * Twitter: https://twitter.com/Kylin_Network
 * Medium: https://medium.com/@kylinNetwork
 * Telegram: https://t.me/KylinOfficial
