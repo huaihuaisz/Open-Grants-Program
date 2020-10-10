@@ -152,7 +152,7 @@ Digital Asset FOF Ltd. is a company registered in Cayman Islands.
    &emsp;\-   Member of the Open Source Initiative 
 
 **Kyn Chaturvedi**  
-   &emsp;\-   Experienced Strategist across multiple verticals in digital technology with a demonstrated history of working in the gaming industry. Skilled in developing and implementing Go-to-Market strategies, Partnership Development, and Product Management.
+   &emsp;\-   Experienced Strategist across multiple verticals in digital technology with a demonstrated history of working in the gaming industry. Skilled in developing and implementing Go-to-Market strategies, Partnership Development, and Product Management.  
    &emsp;\-   Current CBDO of Tomochain  
    &emsp;\-   Wharton Grad (2011)  
 
