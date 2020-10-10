@@ -11,7 +11,14 @@
 **Kylin Network aims to Build a Cross-chain Platform Empowering the Data Economy on Polkadot.** It offers any applications and blockchains (such as parachains and parathreads) instantaneous but reliable and valid on/off-chain market data and social data sources by leveraging the power of Polkadot. Kylin Network represents an extensibility and synergetic increase to the off-chain workers capability as it will provide not only access, management, coordination to a greater array of data sources, but bolster validity and decentralization of the data sources themselves. Kylin Network therefore hopes to achieve complementarity and synergy with [Substrate](https://github.com/paritytech/substrate) Framework while providing valid, reliable, and easily-coordinated data sourcing.
 ![img](https://lh5.googleusercontent.com/T22rYBCvtyDbo7HI5Hs9LUdCzzEWStcR2b2xs8h2kvEUdP2QjpdlRgAf1lhKw1TOhlmfWWf1btNPMwIszcRMIq8iWPBAG_1zFx-iFdwEOd8j61TK9rCOlpr4T2ToHhanvkM7IAg2)
 
-### Existing Problem and Our Solution
+### Team Interest
+The Kylin team comprises talents from different fields of the digital world, ranging from traditional marketing, project operation, full-stack development to cryptocurrency early adopters and evangelists. This team believes it is a group of strong exponents of reforming the status-quo and making substantial contributions that can propel us into the next stage of data exchange and sharing.
+
+Although the market has witnessed a preponderance of projects that try to unravel the oracle problems, most of them were, unfortunately, defeated by the data streams dilemma, which is the inability to funnel the real and instantaneous data onto the blockchain to create greater social value. After learning the developments of Polkadot network expansion and the Substrate 2.0 Framework upgrade, we believe Kylin Network can serve as a competent facilitator between the supply and demand equation.
+
+### Project Details
+
+#### Existing Problem and Our Solution
 
 1. DeFi is the most successful application in blockchain, but we don't want this to be the only one because of lack of valid external data. In a mature web 3.0 world, the number of data sources will be diverse and many, and will not be limited to price feeds alone Indeed, proper middleware will also have as its focus things such as stock price, twitter feeds, real-time election results. The need for an array of validated data resources has never been higher.
 2. Due to the previous lack of [off-chain workers](https://www.parity.io/substrate-2-0-is-here/) (OCW), many off-chain data cannot efficiently get connected to the blockchain. Substrate 2.0 framework provides OCWs as a default solution to [integrate real-world data](https://github.com/open-web3-stack/open-runtime-module-library/tree/master/oracle) safely and securely onto the blockchain via oracles without the need to get opt-in by each validator - in other words, it's a default unlocking of oracle validation across all of substrate.
