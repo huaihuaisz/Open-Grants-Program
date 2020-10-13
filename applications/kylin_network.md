@@ -243,7 +243,7 @@ Kylin's current community engagement strategies include:
 
 Kylin's future community engagement strategies include:
 
-* **Bounty Program for General Community:** We will reward users who contribute positively to community building, content creation through an Ambassador Program. The community management team will be available 24/7 to answer questions and facilitate discussions in community channels.
+* **Bounty Program for General Community:** We will reward users who contribute positively to community building and content creation through an Ambassador Program. The community management team will be available 24/7 to answer questions and facilitate discussions in community channels.
 * **Incentive Program for Dapp Developers:** Kylin Network focuses on giving developer support through both offline and online channels. Developers can integrate the data with only a few lines of code. The simplicity of integrating this project makes it easy for any developer to experiment.
 * **Mining Program for Node Runners:** Kylin Network is targeting a global pool of 100 nodes upon the completed rollout of Kylin Network to achieve the highest degree of decentralization as possible. Gradually, reputable and trusted public nodes will be onboard onto this project to ensure the stability of the network.
 * **Incentive Program for Data Providers:** After the main functions are completed, we will set up an incentive program to encourage more market data and social data sources as premium data providers for Kylin Network.
