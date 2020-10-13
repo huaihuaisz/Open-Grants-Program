@@ -152,7 +152,7 @@ There are some existing projects which can support and work with the Kylin Netwo
 
 Digital Asset FOF Ltd. is a company registered in Cayman Islands.
 
-#### Team experience
+### Team experience
 
 **Dylan Dewdney**  
    &emsp;\-   Longtime (2011/12) crypto enthusiast, miner, investor  
@@ -213,13 +213,11 @@ Digital Asset FOF Ltd. is a company registered in Cayman Islands.
 * **Full-time equivalent (FTE):** 3
 * **Total Costs:** 1.5 BTC
 
-#### Milestone 1 — Verify Production of Concepts (POC) and Implement
-
-#### Substrate Modules
+#### Milestone 1 — Verify Production of Concepts (POC) and Implement Substrate Modules
 
 In this milestone, we will verify features with limited users and launch the testnet for the production of concepts. The implementation of off-chain workers of Substrate Framework will be built and validated.
 
-* **Estimated Duration:** 2 month
+* **Estimated Duration:** 2 months
 * **Full-time Equivalent (FTE)**: 3
 * **Costs:** 1.5 BTC  
 
