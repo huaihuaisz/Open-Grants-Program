@@ -71,7 +71,7 @@ A use case scenario could operate as such:
 * Data feeder is registered and provides pay-per-use information on a premium data feed (pork belly futures from CME Group, Inc., for example); data consumers would search for 'pork belly futures' from the marketplace contracts and pick whatever result seems the most suitable.
 * CME Group provides their data on a monthly subscription basis to the consumer.
 * If the data consumer should not find a result, then they can request a bounty be approved for getting the data provider initialized and/or integrating them. 
-  ![img](https://lh6.googleusercontent.com/F0iC9QG1o444sEGysIoF-L_wpGGIXmEOfRnrIyW20Ur044pbgO1skIrBeLhIFPp1Ss4lau8J9xnAx1Po91kTC6DtH7Muq2HQqJaEdXoxiz1o5yC4BTUax9oAeHzbE_xz_HuCLSU-)
+  <img src="https://lh6.googleusercontent.com/F0iC9QG1o444sEGysIoF-L_wpGGIXmEOfRnrIyW20Ur044pbgO1skIrBeLhIFPp1Ss4lau8J9xnAx1Po91kTC6DtH7Muq2HQqJaEdXoxiz1o5yC4BTUax9oAeHzbE_xz_HuCLSU-" alt="" width="90%"/>
 
 Besides, user contracts calling for a specific category of off-chain premium data would simply search for existing ones from marketplace contracts and pick the most suitable one. If there's no such premium data feed available on-chain yet, developers could start a bounty using $KYL tokens and the community would reach out to corresponding data providers to help integrate their service on-chain.
 
