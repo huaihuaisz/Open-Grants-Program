@@ -172,7 +172,7 @@ Digital Asset FOF Ltd. is a company registered in Cayman Islands.
    &emsp;\-   Current CBDO of Tomochain  
    &emsp;\-   Wharton Grad (2011)  
 
-**Eric Clark Su**
+**Eric Clark Su**  
    &emsp;\-   A prolific supporter of a wide array of crypto projects, more recently, projects like DIA, Tellor and Orion Protocol.  
    &emsp;\-   Longtime business builder and founder, with an extremely strong core skill set of rapidly building up dev teams from scratch.  
    &emsp;\-   CEO of exnt.io  
