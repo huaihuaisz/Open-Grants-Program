@@ -38,7 +38,7 @@ To solve the above existing problems, we need a state-of-art solution to solve t
 * **Kylin Token $KYL** is the native token of Kylin Network which will play the role of governance and other utilities. $KYL is necessary to secure and power the decentralized data network.
   ![img](https://lh3.googleusercontent.com/z_UW4JV9m3F-pjLNpW5FsdicgaIEvJIl9PuJ6QNG9ET9_1LHJI2Lq8Ycr3zzeLrwhrGdtznVQsKlbl8jWFhuZzxG8NL7o1vaUaBl2oRKMRaOItQmYQCndjg_4TQxXYIQburzWdDq)
 
-##### Data Analytics
+#### Data Analytics
 
 The workflow of the Kylin Network below shows the relationship among the major components. Data sources such as blockchain, market, social, etc., data feed into the Kylin Network and data warehouse (data storage via IPFS, local servers, etc).
 
@@ -48,7 +48,7 @@ The ultimate objective of Kylin Analytics is to provide query engine and analyti
 
 Once the number of data sources expands, more data-oriented applications and analytics tools can make use of the service of Kylin Analytics in production. As we see the decentralized derivative trading will become the coming trend in this booming DeFi market, our Production of Concept (POC) will design a comprehensive and sophisticated terminal for data analytics and trade execution for derivative investors.
 
-##### Data Oracle
+#### Data Oracle
 
 Kylin Oracle as an advanced decentralized data feeding protocol provides a reliable, efficient, and trustless solution for off-chain data. The protocol runs in a purely decentralized and scalable manner. Kylin Oracle, which is built on Substrate, will be connected to the Polkadot ecosystem as a parachain, sharing the underlying consensus of Polkadot. The security and network performance will be guaranteed by Polkadot and Substrate Framework. Data integrity and validity can be improved due to the arbitration mechanism.
 ![img](https://lh5.googleusercontent.com/w33wmaVyx4YcrOaMt_Nx8AqY91rwL_afIWTcC00mN7CTISaCR11W-gLvNOubeVQ-kzjuzcdIATZMKE44BU0NbKQFt8T9D2e6q6XYfv3CMT4MQ98XlxKRN-JaB5l0nDTVyZHnCpIR)
@@ -60,7 +60,7 @@ In the schematic diagram above, Kylin Oracle encompasses five entities, includin
 * **Arbitration Node (Arbitrator):** The Arbitration Node guarantees the security and accuracy of external data by verifying the data integrity and the validity that Oracle Node provided. The Arbitration Node has the right to challenge the validity of a mined value or data by Oracle Node in the challenge time by paying a challenge fee.
 * **Blockchain Node (Validator):** The bottom layer of Kylin Oracle is mainly built on a specialized blockchain network established by Substrate. It allows the Oracle Node to broadcast the mined value and the proof of calculation, then support the Arbitration Node to verify the validity of the mined value.
 
-##### Data Marketplace
+#### Data Marketplace
 
 The data marketplace is one of the trillion-dollar businesses around the world. The data marketplace will function as the next logical extension of Kylin Network's ability to warehouse validated real-world data to flow unobstructed with the kind of throughput necessary for comprehensive data feeding solutions. Validated data can be coordinated and managed such that the targeting of premium data feeds becomes possible. Specifications surrounding access to data via data feeders can be set up autonomously by the data provider in addition to cost of access in KYL. Furthermore, capturing and coordinating all this data allows a one-stop place for DApp developers to inform and ease the process of building. Using the hosted server only as a caching layer, it's ensured that all info is on-chain, and only interacting directly with our parachain and IPFS. 
 
@@ -75,7 +75,7 @@ A use case scenario could operate as such:
 
 Besides, user contracts calling for a specific category of off-chain premium data would simply search for existing ones from marketplace contracts and pick the most suitable one. If there's no such premium data feed available on-chain yet, developers could start a bounty using $KYL tokens and the community would reach out to corresponding data providers to help integrate their service on-chain.
 
-##### Substrate/Polkadot Integration
+#### Substrate/Polkadot Integration
 
 Polkadot ecosystem and the newly-updated Substrate 2.0 are essential to what Kylin Network is trying to achieve. Kylin Network will be connected to the Polkadot ecosystem acting as a parachain, sharing the Polkadot underlying consensus, and protected by the network performance of Polkadot and Substrate. Polkadot/Kusama is an important foundation, on which Kylin Network and its components are built.
 
@@ -84,7 +84,7 @@ The pallets that come with the Substrate 2.0 upgrade can offer Kylin Network the
 
 The Kylin team also will utilize the off-chain workers modular to incentivize users to provide verified out-of-blockchain data to the Kylin Marketplace and Kylin Analytics will provide any party with the tools to make sense of the data uploaded. The marketplace is built for data collection and data exchange. The analyzing toolkit will include raw data collector, data preparation, data editor/coding and quantitative data trend generator, with more future features to be developed.
 
-##### Open API and SDK
+#### Open API and SDK
 
 Our ultimate goal is to provide essential Open API and SDK from a high-level perspective with the above tools and fully empower the data economy on Polkadot. The functionality can be utilized via Open API and SDK. This will be released to combine the above components. 
 
@@ -92,7 +92,7 @@ The benefits of an open API are beyond criticism. We hope to build a framework w
 
 The SDK will be both an extension of the builders' capabilities and an extension of the value proposition of the Polkadot universe as a whole. If successful, this sort of solution brings more reliability and robustness to the entire network, as OCWs will be more than the external reference, they will become the enablers of a validated on-chain repository of trusted information for the entire Polkadot network. 
 
-##### Privacy and Security
+#### Privacy and Security
 
 As Kylin Network will provide real-world data to on-chain transactions, security will be placed as a top priority since cyber security issues are quickly becoming a regular occurrence and exposing confidential business information. 
 
@@ -103,7 +103,7 @@ We will employ the Kylin Real-time Transport Protocol (KRTP), a profile of the R
 
 Kylin Network may also apply Verifiable Random Function (VRF) and Threshold Cryptography to drive the secure, unpredictable and verifiable random group selection. Different oracle requests will be handled by randomly selected worker groups. Threshold cryptography will then be applied in the worker group to collectively generate a proof to demonstrate data integrity. Finally, the proof along with the data will be sent back together to the system contracts within one transaction for on-chain verification.
 
-##### Application Scenarios
+#### Application Scenarios
 
 The application scenarios include but not limited to:
 
