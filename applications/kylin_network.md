@@ -86,7 +86,7 @@ The Kylin team also will utilize the off-chain workers modular to incentivize us
 
 #### Open API and SDK
 
-Our ultimate goal is to provide essential Open API and SDK from a high-level perspective with the above tools and fully empower the data economy on Polkadot. The functionality can be utilized via Open API and SDK. This will be released to combine the above components. 
+Our ultimate goal is to provide essential open API and SDK from a high-level perspective with the above tools and fully empower the data economy on Polkadot. The functionality can be utilized via Open API and SDK. This will be released to combine the above components. 
 
 The benefits of an open API are beyond criticism. We hope to build a framework whereby a plethora of diverse, validated data can find expression, value, and explosive operationalization in the Polkadot ecosystem. 
 
@@ -230,7 +230,7 @@ In this milestone, we will verify features with limited users and launch the tes
 | 0c.        | Testing Guide                         | We will provide a full test suite and guide for the POC.     |
 | 1.         | Kylin Network Oracle Node Repo        | Oracle Node built on top of Substrate 2.0, connected to the Polkadot network as a parachain, having the simplest schema of oracle market. |
 | 2.         | Kylin Network Data Feeding/Miner Repo | Data feeding and request process implemented with Substrate 2.0, integrates off-chain workers. |
-| 3.         | Kylin Network Datasource Sample Repo  | Sample data sources (e.g. spot and contract data from derivative exchanges) working with off-chain worker, interactive with Kylin Network. |
+| 3.         | Kylin Network Data Analytics Sample Repo  | Sample data sources (e.g. spot and contract data from derivative exchanges) working with off-chain worker, interactive with Kylin Network. |
 | 4.         | Docker Image                          | The Kylin Network docker image contains the POC version which can be running anywhere to verify the idea of Kylin Network. |
 
 ### Community Engagement
@@ -243,11 +243,11 @@ Kylin's current community engagement strategies include:
 
 Kylin's future community engagement strategies include:
 
-* **Bounty Program for General Community:** We will reward users who contribute positively to community building, content creation and evangelizing Band Protocol through an Ambassador Program. The community management team will be available 24/7 to answer questions and facilitate discussions in community channels.
+* **Bounty Program for General Community:** We will reward users who contribute positively to community building, content creation through an Ambassador Program. The community management team will be available 24/7 to answer questions and facilitate discussions in community channels.
 * **Incentive Program for Dapp Developers:** Kylin Network focuses on giving developer support through both offline and online channels. Developers can integrate the data with only a few lines of code. The simplicity of integrating this project makes it easy for any developer to experiment.
 * **Mining Program for Node Runners:** Kylin Network is targeting a global pool of 100 nodes upon the completed rollout of Kylin Network to achieve the highest degree of decentralization as possible. Gradually, reputable and trusted public nodes will be onboard onto this project to ensure the stability of the network.
 * **Incentive Program for Data Providers:** After the main functions are completed, we will set up an incentive program to encourage more market data and social data sources as premium data providers for Kylin Network.
-* **Potential IPO During Parachain Auction for Community Members:** Kylin Network may hold an Initial Parachain Offering and reward users for helping our auction with $KYL tokens.
+* **Potential IPO during Parachain Auction for Community Members:** Kylin Network may hold an Initial Parachain Offering and reward users for helping our auction with $KYL tokens.
 
 ## Future Plans
 
@@ -256,7 +256,7 @@ Kylin's future community engagement strategies include:
 * In phase 1, our goal is to achieve all the basic functions of current data feeding and verification solutions, in addition we will begin to build our array of non-traditional data sourcing options for dapp builders to utilize and the functionality of a one-stop shop for data sourcing needs without manually calling each http.
 * In phase 2, our goal is a mature data marketplace where Dapp builders and users can easily and effectively coordinate and manage their data needs for a very competitive fee.
 * In phase 3, as the maturity, stability and reach of the data marketplace begins to create opportunities for analytics, we will engineer analytics tools to extract meaningful data findings, patterns, interpretations, while implementing low-cost commercialization functionalities for the public.
-* Finally, our goal is to provide essential API and SDK from a high-level perspective with the above tools and fully empower the data economy on Polkadot.
+* Finally, our goal is to provide essential open API and SDK from a high-level perspective with the above tools and fully empower the data economy on Polkadot.
 
 ## Additional Information :heavy_plus_sign:
 
