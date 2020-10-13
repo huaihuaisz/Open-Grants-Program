@@ -152,7 +152,7 @@ There are some existing projects which can support and work with the Kylin Netwo
 
 Digital Asset FOF Ltd. is a company registered in Cayman Islands.
 
-### Team experience
+### Team Experience
 
 **Dylan Dewdney**  
    &emsp;\-   Longtime (2011/12) crypto enthusiast, miner, investor  
