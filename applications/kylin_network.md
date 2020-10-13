@@ -137,6 +137,7 @@ There are some existing projects which can support and work with the Kylin Netwo
 * Dylan Dewdney - CEO/Project Leader
 * Beni Issembert - CMO/Head of Advisory Board
 * Kyn Chaturvedi - Strategy Advisor
+* Eric Clark Su - Marketing Advisor
 * Kevin Hsu - Data Scientist
 * Aaron Po - Full-stack Developer
 * Andy Zhuang - System Architect/Substrate Developer
