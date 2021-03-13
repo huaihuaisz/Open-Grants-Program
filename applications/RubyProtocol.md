@@ -28,7 +28,7 @@ Here are the basic principles behind the overall architecture design of the fine
 The general idea is shown in Fig. 1. A functional encryption scheme usually consists of four algorithms:`FE.Setup(1^\lambda)`, `FE.KeyGen(msk, f)`, `FE.Enc(mpk, x)` and `FE.Decrypt(Key_f, FE.Enc(mpk, x))`. At the beginning of the system, the key distributors run the `FE.Setup(1^\lambda)` algorithm to generate the master public key `mpk` and master secret key `msk`. Here `\lambda` denotes the security parameter. When a data owner wishes to sell his data, he encrypts his data `x` by running the `FE.Enc(mpk, x)` algorithm and uploads the output ciphertext `Enc(x)` to the untrusted cloud. He then specifies the pricing model with respect to different functions `f`’s in a smart contract SC, and posts it to the Polkadot blockchain. When a data purchaser intends to calculate `f(x)`, he will first generate a commitment of an appropriate amount of coin based on the pricing of the function `f` and his own public key `PK_P` as a transaction to call the contract SC. 
 
 <div align='center'>
- <img src=https://github.com/lornacrevelingwgo23/Ruby/raw/main/architecture.png alt="" width="70%" />
+ <img src=https://user-images.githubusercontent.com/10559375/111019184-861b5b80-83f8-11eb-8cea-e15f1ef1d146.gif alt="" width="70%" />
 </div>
 
 The contract should return a receipt to the data purchaser, who will in turn present it to the key distributor. The key distributor, after verifying the receipt and the respective coin commitment, runs the `FE.KeyGen(msk, f)` algorithm to generate the function key `Key_f` for the data purchaser. 
