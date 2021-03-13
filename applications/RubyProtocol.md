@@ -55,7 +55,7 @@ This will be one of the pricing strategies we adopt in phase 1 and phase 2 of ou
 
 #### Team Interest
 
-The Ruby Protocol team consists of seasoned engineers, cryptographers, and data scientists cryptocurrency early adopters. Our team has a very deep understanding of data monetization and zero-knowledge algorithms. The expertise in cryptography has allowed us to deliver impressive results  The background of the team consists of both engineering and academic backgrounds. We believe that Decentralized Data (DeData) will be the next massive adoption market after Decentralized Finance (DeFi).
+The Ruby Protocol team consists of seasoned engineers, cryptographers, data scientists and  cryptocurrency early adopters. Our team has a very deep understanding of data monetization and zero-knowledge algorithms. The expertise in cryptography has allowed us to deliver impressive results  The background of the team consists of both engineering and academic backgrounds. We believe that Decentralized Data (DeData) will be the next massive adoption market after Decentralized Finance (DeFi).
 
 ##### Substrate/Polkadot Integration
 
@@ -104,7 +104,7 @@ There are several different ways of implementing an MPC protocol: threshold homo
 
 ### Team Experience
 **David Spade**
-David Spade graduated from the University of Nottingham. He is a full-stack developer with 8 years of experience in software development. David also has deep knowledge in zero-knowledge algorithms and he is an expert in the architecture design of DeFi and token economics.
+David Spade graduated from the University of Nottingham. He is a full-stack developer with 8 years of experience in software development. David also has deep knowledge in zero-knowledge algorithms and he is an expert in data science.
 
 **Kevin Hsu**
 Kevin Hsu graduated from MSc in Computational Statistics and Machine Learning from UCL and was supervised by David Silver, the senior engineer of AlphaGO. He served as a data scientist in Credit Suisse, senior machine learning Engineer in WeCash. Prescient and consistent track-record in investment and has invested in over 160 blockchain projects around the world.
