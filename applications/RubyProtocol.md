@@ -3,7 +3,7 @@
 
 * **Project:** Ruby Protocol
 * **Proposer:** Ruby Protocol
-* **Payment Address:** 
+* **Payment Address:** 0x5aBBe7b65c572b9f5Cc7655Ba4a1Acad0e892720
 
 ## Project Overview :page_facing_up:
 ### Overview
