@@ -89,7 +89,7 @@ There are three relevant projects: the first one is perhaps the Enigma project, 
 
 There are several different ways of implementing an MPC protocol: threshold homomorphic encryption, garbled circuit, and secret sharing. The general idea of MPC is to outsource private data (either in the form of secret shares or homomorphic encryption) to a few separate computing parties so that they can perform confidential computation over the encrypted data. Directly applying MPC to fine-grained personal data monetization is problematic in the sense that once the data is outsourced, the data owner does not exert any control over what type of computation can be performed by the computing party. In other words, individual privacy is now at the mercy of these computing parties, which is against the human-centric ethos of fine-grained personal data monetization, where the access control policy should be defined by the data owner and enforced by the algorithm.   On the other hand, functional encryption was specifically proposed and tailored for enforcing fine-grained access control over encrypted data. By allowing the data owner to define the access control policy, the owner has full control over what type of access the data purchaser can have over the encrypted personal data. The only decryption result the data purchaser will be able to retrieve is the predefined function evaluation. 
 
-## Team
+## Team :busts_in_silhouette:
 ### Team Members
 
 * David Spade - Full-stack Software Engineer
@@ -125,21 +125,101 @@ Dylan Dewdney is a longtime crypto enthusiast (2011). In 2017 he co-founded Harb
 * www.linkedin.com/in/beniissembert
 * www.linkedin.com/in/yingkaixu
 
-## Development Roadmap
+## Development Roadmap :nut_and_bolt:
 ### Overview
-* Total Estimated Duration: 2 months
-* Full-time equivalent (FTE): 3 FTE
-* Total Costs: 30,000 DAI
+* **Total Estimated Duration:** 2 months
+* **Full-time equivalent (FTE):** 3 FTE
+* **Total Costs:** 30,000 DAI
 
 #### Milestone 1 — Implement Cryptographic Modules
-* Estimated Duration: 1 month
-* FTE: 1
-* Costs: 10K DAI
+* **Estimated Duration:** 1 month
+* **FTE:** 1
+* **Costs:** 10K DAI
 
 The main deliverable of this milestone includes: 
 * A cryptographic library that implements the inner product functional encryption and quadratic polynomial functional encryption. 
 
 * A substrate pallet that integrates the verification logic of the associated zero-knowledge proof for the legitimacy of the encrypted functional key.
+
+| **Number** | **Deliverable**                       | **Specification**                                            |
+| ---------- | ------------------------------------- | ------------------------------------------------------------ |
+| 0a.        | License                               | Apache License 2.0                                           |
+| 1.         | Cryptographic modules  | We will implement the cryptographic modules including inner product functional encryption and quadratic polynomial functional encryption [MSHBM2019] and the associated zero-knowledge proof [ZeroPool]. We will also implement the substrate pallet that integrates the verification logic of the associated zero-knowledge proof for the legitimacy of the encrypted functional key. |
+| 2.         | Benchmark | Perform unit tests on the individual algorithms to ensure their safety. Benchmark on the gas cost and throughput of the proposed module. |
+| 3.         | Docker | We will provide a dockerfile to demonstrate the usage of our modules. |
+
+#### Milestone 2 —— Client Implementation and Integration
+
+* **Estimated Duration:** 1 month
+* **FTE:** 2
+* **Costs:** 20K DAI
+
+The main deliverable of the milestone is the client that can trigger the aforementioned cryptographic modules and the micropayment scheme and the necessary UI to enable the users to interact with all these algorithms.
+
+| **Number** | **Deliverable**                       | **Specification**                                            |
+| ---------- | ------------------------------------- | ------------------------------------------------------------ |
+| 0a.        | License                               | Apache License 2.0                                           |
+| 1.         | Client modules        | We will implement the client to support the key distribution and decryption of the functional encryption scheme [MSHBM2019]. The client will also generate the transaction that can trigger the aforementioned cryptographic modules and the micropayment scheme [MDJM2019], such as the encrypted functional key and zero-knowledge proof. We will provide a basic UI to take inputs from the users for all these algorithms and receive the outputs. More specifically, the UI will enable the data owner to input the raw data to generate the signed ciphertext and upload it to the cloud server. The UI will also allow the data purchaser to retrieve the functional key from the key authority and the ciphertext from the cloud and then perform the decryption. Finally, it will also allow these entities to interact with the smart contract with the inputs and outputs defined in our architecture. |
+| 2.         | Benchmark | Perform unit tests on the individual algorithms to ensure their safety. Benchmark on the latency and usability of the proposed client functionalities. |
+| 3.         | Docker  | We will provide a dockerfile to demonstrate the usage of our modules. |
+
+### Community Engagement
+* **Bounty Program for General Community:** We will reward users who contribute positively to community building and content creation through an Ambassador Program. The community management team will be available 24/7 to answer questions.
+* **Incentive Program for Data Monetization:** After the main functions are completed, we will provide incentives for users to monetize their data on our platform. This is an encouragement for users to provide the data and purchase the data.
+* **Parachain Loan Offering Campaign:** We may hold a Parachain Loan Offering and reward users for helping our auction with Ruby Protocol tokens.
+* **Affiliated Program of Cryptographic Infrastructure:** It is proven effective for user growth and can be integrated into Ruby’s cryptographic infrastructure.
+
+## Future Plans
+
+We will hire at least 8-10 more devs in the next three months. Meanwhile, we will apply for the Substrate Builder's Program. After that, Ruby Protocol wants to become a parachain for the Polkadot network. We have some preparations for auction and we may design a community-wide LPO.
+
+In phase 1, we will complete the implementation of cryptographic modules as a substrate pallet that integrates the verification logic of the associated zero-knowledge proof for the legitimacy of the encrypted functional key.
+
+In phase 2, our goal is to deliver the micropayment scheme and enable the users to interact with all these algorithms in a working product.
+
+Finally, our goal is to provide an essential open API and SDK from a high-level perspective with the above tools, fully powering the data monetization framework on Polkadot.
+
+## Additional Information :heavy_plus_sign:
+### Reference
+
+[GPSW06] Goyal, V., Pandey, O., Sahai, A., & Waters, B. (2006, October). Attribute-based encryption for fine-grained access control of encrypted data. In Proceedings of the 13th ACM conference on Computer and communications security (pp. 89-98).
+
+[GGGJKLZ14] Goldwasser, S., Gordon, S. D., Goyal, V., Jain, A., Katz, J., Liu, F. H., ... & Zhou, H. S. (2014, May). Multi-input functional encryption. In Annual International Conference on the Theory and Applications of Cryptographic Techniques (pp. 578-602). Springer, Berlin, Heidelberg.
+
+[GKPVZ13] Goldwasser, S., Kalai, Y., Popa, R. A., Vaikuntanathan, V., & Zeldovich, N. (2013, June). Reusable garbled circuits and succinct functional encryption. In Proceedings of the forty-fifth annual ACM symposium on Theory of computing (pp. 555-564).
+
+[ALS2016] Agrawal, S., Libert, B., Stehle, D.: Fully secure functional encryption for inner products, from standard assumptions. In: Annual International Cryptology Conference. pp. 333{362. Springer (2016).
+
+[B2017] Bourse, F. (2017). Functional encryption for inner-product evaluations (Doctoral dissertation).
+
+[B2018] Vitalik Buterin, 
+https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477,
+2018.
+
+[BCTV2013] Eli Ben-Sasson, Alessandro Chiesa, Eran Tromer, and Madars Virza. Succinct non-interactive zero knowledge for a von Neumann architecture. In Proceedings of the 23rd USENIX Security Symposium, Security '14. Available at http://eprint.iacr.org/2013/879.
+
+[BMEB2016] Bataineh, A. S., Mizouni, R., El Barachi, M., & Bentahar, J. (2016, June). Monetizing Personal Data: A Two-Sided Market Approach. In ANT/SEIT (pp. 472-479).
+
+[CGW2015] Chen, J., Gay, R., & Wee, H. (2015, April). Improved dual system ABE in prime-order groups via predicate encodings. In Annual International Conference on the Theory and Applications of Cryptographic Techniques (pp. 595-624). Springer, Berlin, Heidelberg.
+
+[FVBG17] Fisch, B., Vinayagamurthy, D., Boneh, D., & Gorbunov, S. (2017, October). Iron: functional encryption using Intel SGX. In Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security (pp. 765-782).
+
+[LCFS2017] Ligier, D., Carpov, S., Fontaine, C., & Sirdey, R. (2017, February). Privacy Preserving Data Classification using Inner-product Functional Encryption. In ICISSP (pp. 423-430).
+
+[MDJM2019] Mehta, S., Dawande, M., Janakiraman, G., & Mookerjee, V. (2019). How to sell a dataset? pricing policies for data monetization. Pricing Policies for Data Monetization (August 1, 2019).
+
+[MSHBM2019] Marc, T., Stopar, M., Hartman, J., Bizjak, M., & Modic, J. (2019, September). Privacy-Enhanced Machine Learning with Functional Encryption. In European Symposium on Research in Computer Security (pp. 3-21). Springer, Cham.
+
+[PHGR2013] Parno, B., Howell, J., Gentry, C., & Raykova, M. (2013, May). Pinocchio: Nearly practical verifiable computation. In 2013 IEEE Symposium on Security and Privacy (pp. 238-252). IEEE.
+
+[RDGBP2019] Ryffel, T., Dufour-Sans, E., Gay, R., Bach, F., & Pointcheval, D. (2019). Partially encrypted machine learning using functional encryption. arXiv preprint arXiv:1905.10214.
+
+[RRS2013] Reimsbach-Kounatze, C., Reynolds, T., & Stryszowski, P. (2013). Exploring the economics of personal data-a survey of methodologies for measuring monetary value.
+
+[SC2017] Agrawal, Shashank, and Melissa Chase. "Simplifying design and analysis of complex predicate encryption schemes." Annual International Conference on the Theory and Applications of Cryptographic Techniques. Springer, Cham, 2017.   [SGP2018] Sans, E.D., Gay, R., Pointcheval, D.: Reading in the dark: Classifying encrypted digits with functional encryption. IACR Cryptology ePrint Archive 2018, 206, (2018).
+
+[TZLHJS2017] Florian Tramer, Fan Zhang, Huang Lin, Jean-Pierre Hubaux, Ari Juels, and Elaine Shi. ”Sealed-glass proofs: Using transparent enclaves to prove and sell knowledge.” In Security and Privacy (EuroS&P), 2017 IEEE European Symposium on, pp. 19-34. IEEE, 2017. 
+
 
 
 
