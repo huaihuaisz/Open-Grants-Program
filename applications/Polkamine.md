@@ -31,7 +31,11 @@ In addition to solving the above mentioned fundamental problems in the mining in
 ### Project Details
 
 #### Project Architecture
-图片
+
+<div align="center">
+<img src="https://github.com/sztest111/1111/blob/main/images/pic-03.png" alt="" width="80%"/>
+</div>
+  
 
 ##### Hashrate Standardization
 
@@ -44,7 +48,9 @@ When Polkamine standardizes external mining pools for different mining projects 
 2. Second, assess the energy consumption ratio of the mining pool. When the energy consumption ratio standard is determined, it is necessary to investigate the types, numbers, and total energy consumption ratio of the mining machines. It is also important to compare the ratio of different machines to make preparations before upgrading the pool.
 3. Third, upgrade the energy consumption ratio of the mining pool. When the conditions of the mining machines are thoroughly investigated, it is necessary to set the target energy consumption ratio to strike a balance between machines with different ratios, and finally make sure that the energy consumption ratio reaches the target. The weighted average energy consumption can be calculated by the below formula:
 
-图片
+<div align="center">
+<img src="https://github.com/sztest111/1111/blob/main/images/pic-05.png" alt="" width="50%"/>
+</div>
 
 In the above formula, `Ei` represents the energy consumption ratio of the `i-th` type of mining machine, and `Qi` represents the quantity of the `i-th` type of mining machine.
 
@@ -91,7 +97,10 @@ In addition to pTokens, there is another type of asset called Wrapped Output Tok
 
 wTokens are Tokens issued on the Polkamine chain and anchored to the tokens produced by the Polkamine standard mining pool at a 1:1 ratio. You can consider wTokens as the income certificate in the mining products of the Polkamine standard mining pool. wTokens include wBTCO, wETHO, wLTCO, wFILO, etc. which respectively anchor BTC on the Bitcoin chain, ETH on the Ethereum chain, LTC on the Litcoin chain, and FIL on the Filecoin chain in a 1:1 ratio.
 
-图片
+<div align="center">
+<img src="https://github.com/sztest111/1111/blob/main/images/pic-01.png" alt="" width="80%"/>
+</div>   
+<br/>
 
 Since different mining projects adopt varied chains, only by issuing 1:1 mapping assets wTokens can Polkamine write all mining income of Mini Miners to the chain and achieve automation.
 
@@ -104,22 +113,30 @@ Under this mechanism, if the staking rate is less than 100%, it means that all m
 
 Different standard mining pools of Polkamine, targeting various tokens, have different levels of operating cost `Coperation`. The cost encompasses electricity fee `Ce` consumed by the mining machines, the commission `Cc` of the mining software, the maintenance cost `Cf`  of the mining machines, etc.:
 
-图片
+<div align="center">
+<img src="https://github.com/sztest111/1111/blob/main/images/pic-06.png" alt="" width="50%"/>
+</div> 
 
 `Celectricity` is the main part. It is determined by the energy consumption ratio of the mining machines(`Eefficiency`), the HastRate(`MP`) and the electricity price(`Pelectricity`).
-
-图片
-
+  
+<div align="center">
+<img src="https://github.com/sztest111/1111/blob/main/images/pic-07.png" alt="" width="50%"/>
+</div>
+  
 As the operator of all standard mining pools, Polkamine also undertakes standardization and tokenization work in addition to the operation work. So, the Polkamine network will claim a certain percentage (ẞ) of the total output of each mining pool as Commission.
-
-图片
+  
+<div align="center">
+<img src="https://github.com/sztest111/1111/blob/main/images/pic-08.png" alt="" width="50%"/>
+</div> 
 
 `ẞ` will be adjusted according to the situation of each standard mining pool. PolkamineDAO will also vote for `ẞ` value.
 
 In conclusion, if `N` Mini Miners choose to stake pTokens, then the mining reward `R(i)` of the `i-th` Mini Miner is calculated as follows:
-
-图片
-
+  
+<div align="center">
+<img src="https://github.com/sztest111/1111/blob/main/images/pic-09.png" alt="" width="50%"/>
+</div> 
+  
 #### Substrate Integration
 
 Polkamine will leverage Polkadot's off-chain workers (OCW) mechanism to monitor the output of each mining pool, to ensure openness and transparency for retail miners.
@@ -130,7 +147,11 @@ The reasons for adopting the OCW mechanism are:
 
 In addition to OCW, Polkamine will also integrate Substrate’s Off-chain Storage function, so that all operating and revenue data of the mining pool can be safely stored. Also, there will be a complete historical record for Mini Miners to inquire and third-party auditing agencies to audit.
 
-图片
+  
+<div align="center">
+<img src="https://github.com/sztest111/1111/blob/main/images/pic-04.png" alt="" width="80%"/>
+</div> 
+  
 
 #### Competitive Edges
 
