@@ -50,7 +50,7 @@ When Polkamine standardizes external mining pools for different mining projects 
 3. Third, upgrade the energy consumption ratio of the mining pool. When the conditions of the mining machines are thoroughly investigated, it is necessary to set the target energy consumption ratio to strike a balance between machines with different ratios, and finally make sure that the energy consumption ratio reaches the target. The weighted average energy consumption can be calculated by the below formula:
 
 <div align="center">
-<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-05.png" alt="" width="50%"/>
+<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-05.png" alt="" width="35%"/>
 </div>
 
 In the above formula, `Ei` represents the energy consumption ratio of the `i-th` type of mining machine, and `Qi` represents the quantity of the `i-th` type of mining machine.
@@ -98,11 +98,6 @@ In addition to pTokens, there is another type of asset called Wrapped Output Tok
 
 wTokens are Tokens issued on the Polkamine chain and anchored to the tokens produced by the Polkamine standard mining pool at a 1:1 ratio. You can consider wTokens as the income certificate in the mining products of the Polkamine standard mining pool. wTokens include wBTCO, wETHO, wLTCO, wFILO, etc. which respectively anchor BTC on the Bitcoin chain, ETH on the Ethereum chain, LTC on the Litcoin chain, and FIL on the Filecoin chain in a 1:1 ratio.
 
-<div align="center">
-<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-01.png" alt="" width="80%"/>
-</div>   
-<br/>
-
 Since different mining projects adopt varied chains, only by issuing 1:1 mapping assets wTokens can Polkamine write all mining income of Mini Miners to the chain and achieve automation.
 
 Assuming that user `A` holds and stakes `X` pBTCM tokens with the ownership of `0.5X` Th/s standard HashRate and the corresponding income rights,  A can obtain `Y` BTC output every day, calculated by the RoR of the Polkamine BTC standard pool. In order to ensure that the distribution of benefits is fully automated by smart contracts, Polkamine Network will immediately send `Y` wBTCO tokens to user A's address, and users' wBTCO tokens can be exchanged for BTC on the original chain at a 1:1 ratio through Polkamine's cross-chain bridge at any time.
@@ -115,19 +110,19 @@ Under this mechanism, if the staking rate is less than 100%, it means that all m
 Different standard mining pools of Polkamine, targeting various tokens, have different levels of operating cost `Coperation`. The cost encompasses electricity fee `Ce` consumed by the mining machines, the commission `Cc` of the mining software, the maintenance cost `Cf`  of the mining machines, etc.:
 
 <div align="center">
-<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-06.png" alt="" width="50%"/>
+<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-06.png" alt="" width="35%"/>
 </div> 
 
 `Celectricity` is the main part. It is determined by the energy consumption ratio of the mining machines(`Eefficiency`), the HastRate(`MP`) and the electricity price(`Pelectricity`).
   
 <div align="center">
-<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-07.png" alt="" width="50%"/>
+<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-07.png" alt="" width="35%"/>
 </div>
   
 As the operator of all standard mining pools, Polkamine also undertakes standardization and tokenization work in addition to the operation work. So, the Polkamine network will claim a certain percentage (ẞ) of the total output of each mining pool as Commission.
   
 <div align="center">
-<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-08.png" alt="" width="50%"/>
+<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-08.png" alt="" width="35%"/>
 </div> 
 
 `ẞ` will be adjusted according to the situation of each standard mining pool. PolkamineDAO will also vote for `ẞ` value.
@@ -135,7 +130,7 @@ As the operator of all standard mining pools, Polkamine also undertakes standard
 In conclusion, if `N` Mini Miners choose to stake pTokens, then the mining reward `R(i)` of the `i-th` Mini Miner is calculated as follows:
   
 <div align="center">
-<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-09.png" alt="" width="50%"/>
+<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-09.png" alt="" width="35%"/>
 </div> 
   
 #### Substrate Integration
@@ -150,7 +145,7 @@ In addition to OCW, Polkamine will also integrate Substrate’s Off-chain Storag
 
   
 <div align="center">
-<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-04.png" alt="" width="80%"/>
+<img src="https://github.com/polkamine/Polkamine/raw/main/images/pic-04.png" alt="" width="60%"/>
 </div> 
   
 
@@ -172,64 +167,64 @@ In addition to OCW, Polkamine will also integrate Substrate’s Off-chain Storag
 
 ### Team Members
 
-**Andreas Aschenbrenner - Project Lead**  
-**Vladan Falcic - Head of Marketing**  
-**Marcin Dudek - Head of Design and Branding**  
-**Philippe Dee - Senior Blockchain Developer**  
-**David Lee - Senior Smart Contract Developer**  
-**Mahmoud El Hallab - Head of Operation**  
-**Ben Lakoff - Advisor**  
-**Pramod Mahadik - Advisor**  
-**Farrukh Shaikh - Advisor**  
+* Andreas Aschenbrenner - Project Lead   
+* Vladan Falcic - Head of Marketing  
+* Marcin Dudek - Head of Design and Branding  
+* Philippe Dee - Senior Blockchain Developer  
+* David Lee - Senior Smart Contract Developer  
+* Mahmoud El Hallab - Head of Operation  
+* Ben Lakoff - Advisor  
+* Pramod Mahadik - Advisor  
+* Farrukh Shaikh - Advisor  
 
 ### Team Website
-https://polkamine.com/
+* https://polkamine.com/
 
 ### Legal Structure
 Polkamine Technology Ltd. is a company registered in the BVI.
 
 ### Team Experience
 
-**Andreas Aschenbrenner**
+**Andreas Aschenbrenner**  
 Andreas has been involved in several projects since 2016, taking them to another level. He joined Polkamine to make it a success with an international communication mentality. His ingenuity and thirst for knowledge are indomitable, with which he focuses on making the world more decentralized and communicating the value of new technologies like Polkamine through his impressive work ethic.
 
-**Vladan Falcic**
+**Vladan Falcic**  
 Vladan is a Blockchain and crypto enthusiast, he entered the crypto space back in 2014 and was mostly involved in early stage projects. Since 2016 he started working with different projects, improving their marketing and establishing valuable partnerships. Vladan is working with several startup projects, advising them, improving their marketing and building the community. He joined Polkamine as head of marketing and will help to ensure the further growth of the project.
 
-**Marcin Dudek**
+**Marcin Dudek**  
 Marcin, 2D/3D graphic designer with 20 years of experience. From 2002 to 2016 he owned a large advertising agency. Since 2016 he has been involved in the cryptocurrency market. He cooperated with many cryptocurrency projects, taking care of full graphic design of the projects. Investor, present on the investment market for 6 years. Economist and computer graphic designer by education.
 
-**Philippe Dee**
+**Philippe Dee**  
 Phil is an IT professional with a unique combination of technical consulting, and management skills. He’s participated as an individual contributor, consultant, architect and manager on numerous projects of different sizes – from one-person shows to projects involving larger teams spanning globally. Phil is mostly focusing on Ethereum DeFi protocols.
 
-**David Lee**
+**David Lee**  
 David is a hard core technologist with balanced perspectives to Blockchain, decentralized applications and finance that create value. He has gained substantial hands-on experience in leading cryptocurrency projects and technology start-ups as a developer, lead and consultant. He appreciates the importance of quality code as well as the need to meet scheduling demands.
 
-**Mahmoud El Hallab**
+**Mahmoud El Hallab**  
 Driven operation manager with experience in community building and program planning with background in communication and marketing. Energetic, results-oriented proactive professional with extensive knowledge and expertise in community building with passion for blockchain technology.
 
-**Ben Lakoff**
+**Ben Lakoff**  
 Ben has developed a strong global finance experience from nearly a decade of international assignments across 4 continents, and boasts a broad & diverse finance background before joining the blockchain space full-time in 2017. Now, working primarily with early-stage startups, Ben has been an integral part of teams that have raised over $15M in funding.
 
-**Pramod Mahadik**
+**Pramod Mahadik**  
 Pramod aims to build Web3 economy for unique and scarce digital assets supported on Polkadot, Polygon, Ethereum, and Binance Smart Chain. He is the CEO and founder of Polkarare. Besides, he is an expert in the NFT ecosystem with seasoned experience.
 
-**Farrukh Shaikh**
+**Farrukh Shaikh**  
 Farrukh is a seasoned investment and financial professional who previously worked for both KPMG and Grant & Thornton. During his corporate career Farrukh was involved with audit and advisory for the middle eastern region’s largest players. He later left his corporate career to join the evolving world of cryptocurrency. He is a derivatives trader and an active investor in the crypto space.
 
 ### Team Code Repos
-https://github.com/Polkamine-Network
+* https://github.com/Polkamine-Network
 
 ### Team Linkedin Profiles
-https://www.linkedin.com/in/andreas-a-62964a207/  
-https://www.linkedin.com/in/vladan-falcic-sqcap/  
-https://www.linkedin.com/in/marcin-dudekgr/  
-https://www.linkedin.com/in/philippe-dee-a83baa1b5/
-https://www.linkedin.com/in/david-l-9723b5173/
-https://www.linkedin.com/in/mahmoud-el-hallab/
-https://www.linkedin.com/in/benlakoff/
-https://www.linkedin.com/in/psquare-pramod/
-https://www.linkedin.com/in/farrukh-shaikh-754b8089/
+* https://www.linkedin.com/in/andreas-a-62964a207/  
+* https://www.linkedin.com/in/vladan-falcic-sqcap/  
+* https://www.linkedin.com/in/marcin-dudekgr/  
+* https://www.linkedin.com/in/philippe-dee-a83baa1b5/
+* https://www.linkedin.com/in/david-l-9723b5173/
+* https://www.linkedin.com/in/mahmoud-el-hallab/
+* https://www.linkedin.com/in/benlakoff/
+* https://www.linkedin.com/in/psquare-pramod/
+* https://www.linkedin.com/in/farrukh-shaikh-754b8089/
 
 ## Development Roadmap :nut_and_bolt:
 
@@ -253,7 +248,7 @@ https://www.linkedin.com/in/farrukh-shaikh-754b8089/
 | 3.         | Article/Tutorial                      | We will publish medium articles that explains the mining standardization mechanisms and how it will help introduce the first substrate based standardized hashrate token protocol into the DeFi lego of the Polkadot Ecosystem. |
 
 **Milestone 2 - pToken Staking-to-Mine Pallet and Front-end Integration**
-* Estimated Duration: 8 Weeks
+* Estimated Duration: 4 Weeks
 * FTE: 4
 * Costs: 5,000 DAI
 
