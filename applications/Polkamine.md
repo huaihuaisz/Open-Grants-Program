@@ -77,7 +77,7 @@ user: address
 reward: int
 }
 ```
-###### Hashrate Tokenization
+##### Hashrate Tokenization
 When the mining pool is standardized, the next step is to tokenize the HashRate. The process is as follows:
 1. First, the mining pool applies for Tokenization. The first step of the HashRate tokenization is for a mining pool to apply to PolkamineDAO. For mining pools with sufficient HashRate, they can apply to become the Cooperation Mining Pool (CMP). CMP mining pools can choose to standardize and tokenize locally, though, for those whose HashRate fails to reach a certain level, the mining machine needs to be transported to the nearest CMP mining pool for standardization and tokenization.
 2. Second, the PolkamineDAO members audit. Polkamine DAO will appoint a professional audit team to conduct on-site inspections of the mining machines. They will investigate the type, energy consumption ratio of the machines and the mining pool environment, infrastructure, power quality, site management, compliance capabilities, etc. The team will also test the energy consumption ratio of the miners who have applied for joining. Only when demands are met can the applicant enter the next step.
